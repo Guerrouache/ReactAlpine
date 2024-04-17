@@ -1,0 +1,104 @@
+    Couleur: [
+         {id:1, name: 'Peinture opaque Blanc Glacier', image: 'image15Blanc', price: 0},
+         {id:2, name: 'Teinte métallisée Noir Profond', image: 'image15Alpine', price: 840},
+         {id:3, name: 'Teinte spéciale Bleu Alpine', image: 'image15Bleu', price: 1800}    
+    ],
+
+    Jantes: [
+        {id:1, name: 'Grand Prix', price: 0},
+        {id:2, name: 'Serac', price: 1000},
+
+        {id:3, name: 'Légende', price: 0}       
+    ],
+
+    Scellerie: [
+        {id:1, name: 'Sièges baquets en cuir noir et Dinamica', price: 0},
+        {id:2, name: 'Sièges Confort en cuir noir perforé', price: 800},
+
+        {id:3, name: 'Sièges Confort en cuir noir', price: 0}, 
+        {id:4, name: 'Sièges Confort en cuir brun', price: 800}  
+    ],
+
+    Equipement: [
+        design [
+            {id:1, name: 'Pack héritage', price: 180},
+            {id:2, name: 'Repose-pieds passager en aluminium', price: 96}
+        ],
+
+        MediaEtNavigation [
+            {id:1, name: 'Alpine Télémétrics', price: 204},
+            {id:2, name: 'Système audio Focal', price: 600},
+            {id:3, name: 'Système Audio Focal Premium', price: 1200},
+            {id:4, name: 'Système Audio Focal standard', price: 0}
+        ],
+
+        confort [
+            {id:1, name: 'Retroviseur intérieur électrochrome', price: 0},
+            {id:2, name: 'Rétroviseurs ext. chauf. rabattables élec.', price: 504},
+            {id:3, name: 'Pack de rangement', price: 504},
+            {id:4, name: 'Régulateur / limiteur de vitesse', price: 0}
+        ],
+
+        conduite [
+            {id:1, name: 'Aide au stationnement AR', price: 420},
+            {id:2, name: 'Aide au stationnement AV et AR', price: 750},
+            {id:3, name: 'Aide au stationnement AV AR et caméra de recul', price: 1200},
+            {id:4, name: 'Echappement Sport actif', price: 1500}
+        ],
+
+        securite [
+            {id:1, name: 'Système de freinage Haute-Perf 320mm', price: 1000},
+            {id:2, name: "Assistance au freinage d'urgence", price: 0},
+            {id:3, name: 'Airbags frontaux conducteur et passager', price: 0}
+        ],
+
+        Perso.exterieur [
+            {id:1, name: 'Etriers de freins couleur Bleu Alpine', price: 383},
+            {id:2, name: 'Logo Alpine sur les ailes avant', price: 120},
+            {id:3, name: 'Etriers de frein couleur Gris Anthracite', price: 0}
+        ],
+
+        Perso.interieur [
+            {id:1, name: 'Pédalier en aluminium', price: 120},
+            {id:2, name: 'Harmonie carbone mat', price: 0},
+            {id:3, name: 'Logo au centre du volant en Bleu Alpine', price: 84},
+            {id:4, name: 'Sièges chauffants', price: 400}
+        ]     
+    ],
+
+    Accessoires: [ 
+        TransportEtProtection [
+            {id:1, name: 'Extincteur 1kg avec manomètre', price: 22},
+            {id:2, name: 'Chaine à neige Premium Grip', price: 336},
+            {id:3, name: 'Alarme', price: 543},
+            {id:4, name: 'Protection Prise OBD', price: 99},
+            {id:5, name: 'Kit de sécurité', price: 20},
+            {id:6, name: 'Fixation extincteur', price: 72}
+        ],
+    
+    Multimedia [
+        {id:1, name: 'Support caméra sport', price: 89},
+        {id:2, name: 'Support smartphone magnétique - Fixation sur tableau de bord', price: 21}
+     
+    ],
+
+    Intérieur [
+        {id:1, name: 'Tapis de coffre', price: 83},
+        {id:2, name: 'Filet de rangement - Horizontalnt', price: 59}
+    ],
+
+    MatérielDeGarage [
+        {id:1, name: 'Chargeur  batterie', price: 240},
+        {id:2, name: 'Kit Outils Alpine', price: 398}
+    ],
+
+    Exterieur [
+        {id:1, name: 'Cabochons Alpine - Métalisés', price: 24},
+        {id:2, name: 'Housse de protection Alpine', price: 216},
+        {id:3, name: 'Antivols pour jante - Noirs', price: 51}
+    ]
+    ]
+
+};
+
+

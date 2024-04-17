@@ -1,0 +1,25 @@
+function Configure() {
+const [selectedModel, setSelectedModel] = React.useState('A110 Pure');
+
+const handleModelChange = (event) => {
+    setSelectedModel(event.target.value);
+};
+
+return (
+    <div>
+        <h1 className='text-light'>Configurez votre A110</h1>
+        {selectedModel === 'A110 Pure' ? (
+            <img src={image16} alt='voiture' className='voiture' style={{ width: '30%' }} />
+        ) : (
+            <img src={image15} alt='voiture' className='voiture' style={{ width: '30%' }} />
+        )}
+        <div>
+            <h2 className='text-light'>Choisissez votre modèle</h2>
+            <select className='select' value={selectedModel} onChange={handleModelChange}>
+                <option value='A110 Pure'>A110 Pure</option>
+                <option value='A110 Légende'>A110 Légende</option>
+            </select>
+        </div>
+    </div>
+);
+}

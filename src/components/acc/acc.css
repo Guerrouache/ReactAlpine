@@ -1,0 +1,54 @@
+/* function Acc() {
+    const [showImage, setShowImage] = useState(true);
+  
+    const toggleImage = () => {
+      setShowImage(!showImage);
+    };
+  
+    return (
+      <div className='Résumé bg-dark'>
+        <div>
+          <h2 className='title text-light'>MADE BY RACERS</h2>
+          <p className='text text-light'>
+            En 1955, Jean Rédélé, entrepreneur passionné, fonde Alpine sur trois piliers :
+            <br></br> agilité, élégance, esprit de compétition.
+          </p>
+  
+          <p className='text-light'>
+            Conçue par des pilotes pour ceux qui veulent maîtriser l’asphalte, la
+            <br></br> légende Alpine s’est érigée à travers des victoires mythiques, et un
+            <br></br> engagement sportif sans limite.
+          </p>
+  
+          <p className='text-light'>
+            Depuis 2016, à travers notre nouvelle gamme A 110, nous continuons à<br></br> gravir tous
+            les échelons du sport automobile. Demain, nous voulons<br></br> réinventer la sportivité
+            automobile avec des technologies innovantes<br></br> issues de la Formule 1, pour des
+            pilotes passionnés.
+          </p>
+        </div>
+        <br></br>
+        <br></br>
+  
+        <div>
+          <h1 className='Model text-light'>Découvrez notre nouveau modele A110 </h1>
+          {showImage ? (
+            <img src={image10} alt='voiture' className='voiture' style={{ width: '30%' }} />
+          ) : (
+            <img src={image11} alt='voiture' className='voiture' style={{ width: '30%' }} />
+          )}
+          <button className='btn btn-light' onClick={toggleImage}>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-up" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M11.5 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L11 2.707V14.5a.5.5 0 0 0 .5.5m-7-14a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L4 13.293V1.5a.5.5 0 0 1 .5-.5"/>
+            </svg>
+          </button>
+  
+          <p className='text-light'>
+            La nouvelle A110 est fidèle à l’esprit de son illustre aînée. Agile, <br></br>compacte et
+            légère, elle offre un plaisir de conduite inégalé.
+          </p>
+        </div>
+      </div>
+    );
+  }
+   */
